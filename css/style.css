@@ -485,3 +485,16 @@
 /* .packege li:last-child{
     border-bottom: none !important;
 } */
+
+.domain-regi input
+{
+border-radius :10px 0 0 10px !important;
+}
+.domain-regi a
+{
+border-radius :0 10px 10px 0 !important;
+}
+
+.web-hosting img{
+    border-radius: 10px;
+}
