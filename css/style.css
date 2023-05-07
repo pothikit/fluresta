@@ -498,3 +498,7 @@ border-radius :0 10px 10px 0 !important;
 .web-hosting img{
     border-radius: 10px;
 }
+.domain img{
+    height: 400px !important;
+    border-radius: 5px;
+}
