@@ -152,7 +152,7 @@
 
 /*** Hero Header ***/
 .hero-header {
-    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../img/world.png);
+    background: linear-gradient(rgba(15, 23, 43, .8), rgba(15, 23, 43, .8)), url(../img/herobg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -501,4 +501,18 @@ border-radius :0 10px 10px 0 !important;
 .domain img{
     height: 400px !important;
     border-radius: 5px;
+}
+/* slider item size fixed */
+.testimonial-carousel .testimonial-item{
+    height: 280px !important;
+}
+@media screen and (max-width: 1380px) {
+    .testimonial-carousel .testimonial-item{
+        min-height: 350px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .testimonial-carousel .testimonial-item{
+        height: 280px !important;
+    }
 }
