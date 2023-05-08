@@ -115,5 +115,8 @@
         }
     });
     
+    // Testimonials carousel
+ 
+
 })(jQuery);
 

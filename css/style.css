@@ -495,7 +495,7 @@ border-radius :10px 0 0 10px !important;
 border-radius :0 10px 10px 0 !important;
 }
 
-.web-hosting img{
+.common-section-img{
     border-radius: 10px;
 }
 .domain img{
@@ -503,16 +503,22 @@ border-radius :0 10px 10px 0 !important;
     border-radius: 5px;
 }
 /* slider item size fixed */
-.testimonial-carousel .testimonial-item{
+.home-page .testimonial-carousel .testimonial-item{
     height: 280px !important;
 }
 @media screen and (max-width: 1380px) {
-    .testimonial-carousel .testimonial-item{
+    .home-page .testimonial-carousel .testimonial-item{
         min-height: 350px !important;
     }
 }
 @media screen and (max-width: 768px) {
-    .testimonial-carousel .testimonial-item{
+    .home-page .testimonial-carousel .testimonial-item{
         height: 280px !important;
     }
+}
+
+/* payment slider */
+.payment-slider img{
+    height: 140px !important;
+    width: 140px !important;
 }
